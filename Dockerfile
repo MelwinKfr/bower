@@ -1,4 +1,4 @@
-FROM node:7-alpine
+FROM node:9-alpine
 
 RUN apk add -U git \
     && npm install -g bower \
